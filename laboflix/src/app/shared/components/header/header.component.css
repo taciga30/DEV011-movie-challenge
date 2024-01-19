@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/showtime');
+
+* {
+    margin:0;
+}
+
+header {
+    background-color:#D157F2;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Showtime', sans-serif;
+    font-size: 700%;
+    padding: 8px 0 8px 0;
+}
