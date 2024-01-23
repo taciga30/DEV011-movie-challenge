@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 *{
-    margin:0;
-    padding: 0;
     font-family: "Fredoka", sans-serif;
     font-stretch:semi-condensed;
     /* font-size: 95%; */
@@ -12,4 +9,6 @@
 body {
     position:fixed;
     top:40%;
+    text-align: center;
+    width: 100%;
 }
