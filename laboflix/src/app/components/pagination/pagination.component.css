@@ -8,8 +8,8 @@
 }
 
 div {
-    position:fixed;
-    top:80%;
+    /* position:fixed;
+    top:80%; */
     text-align: center;
     width: 100%;
 }

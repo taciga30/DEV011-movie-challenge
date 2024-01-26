@@ -3,7 +3,7 @@
   <li class="card" *ngFor="let movie of movieList">
     <img class="poster" src="https://image.tmdb.org/t/p/w200/{{movie.poster_path}}" alt="Poster película ${{movie.title}}"/>
     <p>{{movie.title}}</p>
-    <span>{{getYear(movie.release_date) }}</span>
+    <span>{{getYear(movie.release_date)}}</span>
   </li>
 </ul>
 </div>

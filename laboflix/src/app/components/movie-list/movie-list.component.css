@@ -2,42 +2,44 @@
 *{
   font-family: "Fredoka", sans-serif;
   font-stretch:semi-condensed;
-  /* font-size: 95%; */
   color: #D157F2;
 }
 
 div {
-  display: flex;
-  position:fixed;
-  top:25%;
-  text-align: center;
-  width: 100%;
+  /* display: flex; */
+  /* position:fixed;
+  top:25%; */
+  /* text-align: center; */
+  /* width: 100%; */
   gap: 10px;
-  align-content: center;
-  justify-content: center;
+  /* align-content: center; */
+  /* justify-content: center; */
 }
 
 ul{
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  /* align-content: center; */
   width: 100%;
   justify-content: center;
+
 }
 
 .card {
 border: 1px solid #D157F2;
 padding: 10px;
 margin: 10px;
-width: 200px;
+width: 18%;
+height: auto;
 text-align: center;
+box-sizing: border-box;
 }
 
 .poster {
-width: 100%;
-height: auto;
-color: white;
+width: 95%;
+height: 80%;
+/* color: white; */
 }
 
 p {

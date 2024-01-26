@@ -10,11 +10,12 @@
 }
 
 footer{
+  /* display: flexbox; */
     background-color:#D157F2;
     text-align: center;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
 }
 
