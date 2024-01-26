@@ -7,9 +7,9 @@
 }
 
 
-body {
+div {
     position:fixed;
-    top:33%;
+    top:20%;
     text-align: center;
     width: 100%;
     /* justify-content: space-between; */

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MoviesService } from './services/movies.service';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +8,13 @@ import { MoviesService } from './services/movies.service';
 export class AppComponent {
   title = 'laboflix';
 
-  constructor(private moviesSvc:MoviesService){
-    this.moviesSvc.getMovies().subscribe(res=>{
-      console.log(res);
-    });
+ 
+  
+  
+  
+  ngOnInit(): void {
+    
+    
   }
-}
+  
+  }

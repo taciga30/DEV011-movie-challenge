@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router';
 import { ViewsModule } from './views/views.module';
 
 import { AppComponent } from './app.component';
-import { CardMovieComponent } from './components/card-movie/card-movie.component';
 import { HomeComponent } from './views/home/home.component';
 import { MovieDetailComponent } from './views/movie-detail/movie-detail.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -13,18 +12,19 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { FiltersComponent } from './components/filters/filters.component';
 import { SharedModule } from './shared/shared.module';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { MovieListComponent } from './components/movie-list/movie-list.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardMovieComponent,
     HomeComponent,
     MovieDetailComponent,
     HeaderComponent,
     FooterComponent,
     PaginationComponent,
     FiltersComponent,
+    MovieListComponent,
   ],
   imports: [
     BrowserModule,

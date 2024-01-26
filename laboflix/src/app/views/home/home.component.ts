@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MoviesService } from 'src/app/services/movies.service';
 
 @Component({
   selector: 'app-home',
@@ -6,11 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  movies: any = {};
 
-  constructor() { }
+  constructor(private service: MoviesService ){
+
+  }
 
   ngOnInit(): void {
-    
+    this.service.getMovies().subscribe(movies=> {
+      this.movies = movies.results;
+      console.log(this.movies);
+
+    });
   }
 
 }

@@ -1,0 +1,51 @@
+
+*{
+  font-family: "Fredoka", sans-serif;
+  font-stretch:semi-condensed;
+  /* font-size: 95%; */
+  color: #D157F2;
+}
+
+div {
+  display: flex;
+  position:fixed;
+  top:25%;
+  text-align: center;
+  width: 100%;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.card {
+border: 1px solid #D157F2;
+padding: 10px;
+margin: 10px;
+width: 200px;
+text-align: center;
+}
+
+.poster {
+width: 100%;
+height: auto;
+color: white;
+}
+
+p {
+font-size: 18px;
+margin-bottom: 5px;
+}
+
+span {
+font-size: 14px;
+}
+
