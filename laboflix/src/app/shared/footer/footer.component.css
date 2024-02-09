@@ -9,25 +9,27 @@
     color: #181226;
 }
 
-footer{
-  /* display: flexbox; */
-    background-color:#D157F2;
-    text-align: center;
-    /* position: fixed;
-    bottom: 0;
-    left: 0; */
-    width: 100%;
+ul{
+  display: flex;
+  list-style-type: none;
+  background-color:#D157F2;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
-.pyear{
+.year{
     margin-bottom: 0.5%;
 }
 
-.pdeveloper{
-    margin-top: 0.5%;
+.developer{
+    margin-top: 1%;
 }
 
-.plabo{
-    margin: 0.5%;
+.labo{
+    margin: 0.2%;
 }
 

@@ -1,9 +1,9 @@
 <div>
-<select name="filter" >
-    <option value="value0" >Filtrar por género</option> 
+<select name="filter" *ngIf="genresList" (change)="getGenreId($event)">
+    <option value={{genre.id}} *ngFor="let genre of genresList">{{genre.name}}</option>
 </select>
 <select name="order">
-    <option value="value0">Ordenar por</option>    
+    <option value="value0">Ordenar por</option>
 </select>
 
 </div>
